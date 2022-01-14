@@ -35,12 +35,13 @@
         <script> console.log({{ current_variant.inventory_quantity | json}})</script>
         <script> console.log({{ current_variant.id | json}})</script>
         <script> console.log({{ block.settings.inventory_threshold | json}})</script>
-        {%-liquid 
-          -%}
+
         {% if current_variant.inventory_quantity > 0 and current_variant.inventory_quantity >= block.settings.inventory_threshold %}
           {{ product.metafields.my_fields.livraison }}
-        {% elsif current_variant.inventory_quantity == 0 %}
+        {% elsif current_variant.inventory_quantity == 0 and current_variant.inventory_policy == 'continue' %}
           {{ product.metafields.my_fields.non_stock }}
+        {% else %}
+          {{ product.metafields.my_fields.invendu }}  
         {% endif %}
         <!-- {% case current_variant.inventory_quantity %}
         {% when == 0  %}
