@@ -35,31 +35,15 @@
         <script> console.log({{ current_variant.inventory_quantity | json}})</script>
         <script> console.log({{ current_variant.id | json}})</script>
         <script> console.log({{ block.settings.inventory_threshold | json}})</script>
+        <script> console.log({{ current_variant.inventory_policy | json}})</script>
 
         {% if current_variant.inventory_quantity > 0 and current_variant.inventory_quantity >= block.settings.inventory_threshold %}
           {{ product.metafields.my_fields.livraison }}
         {% elsif current_variant.inventory_quantity == 0 and current_variant.inventory_policy == 'continue' %}
           {{ product.metafields.my_fields.non_stock }}
-        {% else %}
-          {{ product.metafields.my_fields.invendu }}  
+        {% elsif current_variant.inventory_quantity == 0 and current_variant.inventory_policy == 'deny' %}
+          {{ product.metafields.my_fields.invendu }} 
         {% endif %}
-        <!-- {% case current_variant.inventory_quantity %}
-        {% when == 0  %}
-          {{ product.metafields.my_fields.non_stock }}
-        {% when => block.settings.inventory_threshold  %}
-          {{ product.metafields.my_fields.livraison }}
-        {% else %}
-          {{ product.metafields.my_fields.invendu }}
-      {% endcase %} -->
-        <!-- ///// -->
-        <!-- {%- if inventory_visible -%} -->
-<!--  'x unités en stock'       	{{ 'products.product.stock_label'| t: count: current_variant.inventory_quantity }} -->
-        	<!-- {{ product.metafields.my_fields.livraison }}
-        {%- else -%} -->
-         	<!-- {{ product.metafields.my_fields.livraison }} -->
-<!-- 'en stock'        	{{ 'products.product.in_stock_label' | t }} -->
-        <!-- {%- endif -%}         -->
-<!--         !délais livraison à intégrer ici! --> 
       </span>
     </span>
   </li>
@@ -127,5 +111,4 @@
     >
     </div>
   {%- endfor -%}
-  <script>console.log({{ current_variant.inventory_quantity | json}})</script>
 </div>
