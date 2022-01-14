@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "cf8fd2c3-f216-4f6e-876d-dcde04516c36": {
+          "type": "collection",
+          "settings": {
+            "collection": "cadeaux"
+          }
+        },
+        "a83078db-0f2a-4f58-863a-634e73d458dc": {
+          "type": "collection",
+          "settings": {
+            "collection": "canapes-fauteuils"
+          }
+        },
+        "b933f5e5-5b31-45b2-ad45-805bdd84239e": {
+          "type": "collection",
+          "settings": {
+            "collection": "chaises"
+          }
+        },
+        "bdaa9089-bb1d-481d-9e8c-cc9447f8766c": {
+          "type": "collection",
+          "settings": {
+            "collection": "tables"
+          }
+        },
+        "ff7892a1-8a6d-4d8e-a4b7-f119b5eb831a": {
+          "type": "collection",
+          "settings": {
+            "collection": "meubles"
+          }
+        },
+        "b74934a7-e743-41c3-8460-1c45f7c4a828": {
+          "type": "collection",
+          "settings": {
+            "collection": "luminaires"
+          }
+        },
+        "dd559f78-ca46-443c-bf25-6350eb36bd32": {
+          "type": "collection",
+          "settings": {
+            "collection": "decoration"
+          }
+        },
+        "b9f1fdfd-9221-403a-8c95-85369d324661": {
+          "type": "collection",
+          "settings": {
+            "collection": "chaises-de-jardin"
+          }
+        },
+        "d7029683-dd07-4de0-8ed4-1f135a9dda23": {
+          "type": "collection",
+          "settings": {
+            "collection": "etagere-bibliotheque"
+          }
+        },
+        "f36d7ffe-c8a1-4e1e-8226-6b8d8db3dac1": {
+          "type": "collection",
+          "settings": {
+            "collection": "coups-de-coeur"
+          }
+        }
+      },
+      "block_order": [
+        "cf8fd2c3-f216-4f6e-876d-dcde04516c36",
+        "a83078db-0f2a-4f58-863a-634e73d458dc",
+        "b933f5e5-5b31-45b2-ad45-805bdd84239e",
+        "bdaa9089-bb1d-481d-9e8c-cc9447f8766c",
+        "ff7892a1-8a6d-4d8e-a4b7-f119b5eb831a",
+        "b74934a7-e743-41c3-8460-1c45f7c4a828",
+        "dd559f78-ca46-443c-bf25-6350eb36bd32",
+        "b9f1fdfd-9221-403a-8c95-85369d324661",
+        "d7029683-dd07-4de0-8ed4-1f135a9dda23",
+        "f36d7ffe-c8a1-4e1e-8226-6b8d8db3dac1"
+      ],
+      "settings": {
+        "title_enable": false,
+        "display_type": "selected",
+        "sort": "alphabetical"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

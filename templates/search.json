@@ -1,0 +1,29 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-search",
+      "settings": {
+        "enable_sidebar": true,
+        "collapse_filters": true,
+        "enable_color_swatches": false,
+        "enable_sort": true,
+        "grid_style": "small"
+      }
+    },
+    "164181058080c17f73": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "NOS COUPS DE CŒURS DURABLES",
+        "home_featured_products": "coups-de-coeur",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "164181058080c17f73"
+  ]
+}

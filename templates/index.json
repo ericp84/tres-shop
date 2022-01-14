@@ -1,0 +1,550 @@
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "hero",
+          "settings": {
+            "top_subheading": "",
+            "title": "<p>CHANGEONS LE MONDE DE L'INTÉRIEUR<\/p>",
+            "title_size": 56,
+            "subheading": "Le meilleur du design : durable, éthique et esthétique.",
+            "link": "https:\/\/tres-ecodesign.com\/collections",
+            "link_text": "Mobilier éco-design",
+            "link_2": "https:\/\/tres-ecodesign.com\/collections\/cadeaux",
+            "link_text_2": "Cadeaux durables",
+            "color_accent": "#ffffff",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/selected_a0e877c0-d64b-4f4b-b251-e5312b7278ed.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/selected_a0e877c0-d64b-4f4b-b251-e5312b7278ed.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "desktop_size": -10,
+        "mobile_size": 0,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured-collections-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "canapes-fauteuils",
+            "title": ""
+          }
+        },
+        "featured-collections-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "chaises",
+            "title": ""
+          }
+        },
+        "featured-collections-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "luminaires",
+            "title": ""
+          }
+        },
+        "featured-collections-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "meubles",
+            "title": ""
+          }
+        },
+        "featured-collections-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "tables",
+            "title": ""
+          }
+        },
+        "featured-collections-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "decoration",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured-collections-0",
+        "featured-collections-2",
+        "featured-collections-1",
+        "featured-collections-3",
+        "featured-collections-4",
+        "featured-collections-5"
+      ],
+      "settings": {
+        "title": "nos catégories",
+        "divider": false
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "fa828932-e4f6-4594-b7e0-0dd1b1cbc5b4": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "C'est sur",
+            "heading": "vous faites un bel achat",
+            "textarea": "Camille déniche pour vous une sélection de caractère, signée par des designers.",
+            "cta_text1": "Tous nos coups de cœur",
+            "cta_link1": "https:\/\/tres-ecodesign.com\/collections\/coups-de-coeur",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/Marie_Claire_2_720xjpg.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 480,
+            "text_align": "vertical-bottom horizontal-center",
+            "focal_point": "center",
+            "color_accent": "#ffffff"
+          }
+        },
+        "a49850c7-ecfb-47f1-af6a-0b53f79eff79": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "C'est certain",
+            "heading": "Vous faites un bon achat",
+            "textarea": "Grégoire décrypte pour vous toutes les impacts produits.",
+            "cta_text1": "Notre charte de sélection",
+            "cta_link1": "https:\/\/tres-ecodesign.com\/pages\/engagements",
+            "cta_text2": "",
+            "cta_link2": "",
+            "image": "shopify:\/\/shop_images\/okPhoto05_5_720xjpg.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 320,
+            "text_align": "vertical-bottom horizontal-center",
+            "focal_point": "top",
+            "color_accent": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "fa828932-e4f6-4594-b7e0-0dd1b1cbc5b4",
+        "a49850c7-ecfb-47f1-af6a-0b53f79eff79"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "nos coups de coeurs durables",
+        "home_featured_products": "coups-de-coeur",
+        "count": 5,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "featured-collection2": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "",
+        "count": 5,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "promo-grid2": {
+      "type": "promo-grid",
+      "disabled": true,
+      "blocks": {
+        "promo-grid-2-0": {
+          "type": "banner",
+          "settings": {
+            "heading": "Banner promotion",
+            "text": "Add the details of your promotion in smaller text",
+            "link": "",
+            "label": "Shop now",
+            "color_scheme": "2"
+          }
+        },
+        "promo-grid-2-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "subheading": "",
+            "heading": "Announce your product",
+            "textarea": "Include text explaining your featured product.",
+            "link_label": "Shop",
+            "label": "New",
+            "enable_price": true,
+            "width": "50",
+            "color_scheme": "1"
+          }
+        },
+        "promo-grid-2-2": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "subheading": "",
+            "heading": "Announce your product",
+            "textarea": "Include text explaining your featured product.",
+            "link_label": "Shop",
+            "label": "New",
+            "enable_price": true,
+            "width": "50",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "promo-grid-2-0",
+        "promo-grid-2-1",
+        "promo-grid-2-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "newsletter": {
+      "type": "newsletter",
+      "disabled": true,
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title": "Sign up and save"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.<\/p>"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "text",
+        "form"
+      ],
+      "settings": {
+        "color_scheme": "2"
+      }
+    },
+    "slideshow-split2": {
+      "type": "slideshow-split",
+      "disabled": true,
+      "blocks": {
+        "slideshow-split2-0": {
+          "type": "slide",
+          "settings": {
+            "top_subheading": "",
+            "title": "Side by Side Slide",
+            "title_size": 45,
+            "subheading": "Add optional subtext",
+            "link": "",
+            "link_text": "Optional button",
+            "link_2": "",
+            "link_text_2": "",
+            "text_position": "left",
+            "indent_image": false,
+            "focal_point": "bottom center",
+            "color_scheme": "1"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-split2-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "height": 550,
+        "height_mobile": 450,
+        "style": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "164155916413187403": {
+      "type": "testimonials",
+      "blocks": {
+        "1641559164fd09658c-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<p>Commerce 2.0 : Très.écodesing, le <a href=\"https:\/\/www.bfmtv.com\/economie\/replay-emissions\/commerce-2-0\/commerce-2-0-tres-ecodesing-le-nutri-score-du-meuble-responsable-par-noemie-wira-22-11_VN-202111220042.html\" target=\"_blank\" title=\"https:\/\/www.bfmtv.com\/economie\/replay-emissions\/commerce-2-0\/commerce-2-0-tres-ecodesing-le-nutri-score-du-meuble-responsable-par-noemie-wira-22-11_VN-202111220042.html\">nutri-score du meuble responsable<\/a>.<\/p>",
+            "image": "shopify:\/\/shop_images\/9_180x_51f2eaeb-e011-47a9-a1f4-f56006a2416a.png",
+            "author": "",
+            "author_info": ""
+          }
+        },
+        "1641559164fd09658c-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<p>Commerce 2.0 : Très.écodesing, le <a href=\"https:\/\/www.bfmtv.com\/economie\/replay-emissions\/commerce-2-0\/commerce-2-0-tres-ecodesing-le-nutri-score-du-meuble-responsable-par-noemie-wira-22-11_VN-202111220042.html\" target=\"_blank\" title=\"https:\/\/www.bfmtv.com\/economie\/replay-emissions\/commerce-2-0\/commerce-2-0-tres-ecodesing-le-nutri-score-du-meuble-responsable-par-noemie-wira-22-11_VN-202111220042.html\">nutri-score du meuble responsable<\/a>.<\/p>",
+            "image": "shopify:\/\/shop_images\/10_180x_3b114760-1411-459e-bebf-17583ea9fcac.png",
+            "author": "",
+            "author_info": ""
+          }
+        },
+        "1641559164fd09658c-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<p>TRÈS.écodesign, un nouveau site qui se veut <a href=\"https:\/\/www.lsa-conso.fr\/tres-ecodesign-un-nouveau-site-qui-se-veut-le-yuka-du-meuble,396566\" target=\"_blank\" title=\"https:\/\/www.lsa-conso.fr\/tres-ecodesign-un-nouveau-site-qui-se-veut-le-yuka-du-meuble,396566\">le Yuka du meuble.<\/a><\/p>",
+            "image": "shopify:\/\/shop_images\/11_180x_ff5b9cb2-9d65-4ca0-b6c8-03cd359e80ed.png",
+            "author": "",
+            "author_info": ""
+          }
+        },
+        "1641559164fd09658c-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "quote",
+            "testimonial": "<p>Design : <a href=\"https:\/\/www.causette.fr\/terre\/design-un-eco-score-pour-le-mobilier\" target=\"_blank\" title=\"TRES.écodesign : un éco-score pour le mobilier\">un éco-score pour le mobilier<\/a>. <\/p>",
+            "image": "shopify:\/\/shop_images\/Photos_Miroir_transparent_5_180x_61d79ef7-9f44-4696-b86c-3c12d40a216a.png",
+            "author": "",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "1641559164fd09658c-0",
+        "1641559164fd09658c-1",
+        "1641559164fd09658c-2",
+        "1641559164fd09658c-3"
+      ],
+      "settings": {
+        "title": "LA PRESSE PARLE DE NOUS",
+        "align_text": "center",
+        "round_images": false,
+        "color_scheme": "2"
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "UNE MARQUE DE DESIGN VRAIMENT RESPONSABLE, C'EST QUOI ?"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Des produits dont on connait l'usine, la composition détaillée et les labels exacts.<\/p><p><em><strong>Nous vérifions tout et rencontrons chaque responsable de production.<\/strong><\/em><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "3",
+        "divider": false
+      }
+    },
+    "1641559501f6c03e05": {
+      "type": "testimonials",
+      "blocks": {
+        "16415595014dd3434f-0": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Gros coup de cœur ! Produit fidèle à la description, livraison en 48h, mails de suivi pour m’informer de toutes les étapes de la commande à la livraison. Je recommande !<\/p>",
+            "author": "Clémence D.",
+            "author_info": ""
+          }
+        },
+        "16415595014dd3434f-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Produits conformes à la description du site et livraison rapide. Service client hyper réactif. Je recommande !<\/p>",
+            "author": "Emilie Z.",
+            "author_info": ""
+          }
+        },
+        "16415595014dd3434f-2": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Une très belle sélection de produits, je suis fan ! Site sérieux, livraison dans les temps, très satisfaite de mon achat (tabouret Lou). Je recommande !<\/p>",
+            "author": "Laura L",
+            "author_info": ""
+          }
+        },
+        "16415595014dd3434f-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Démarche très intéressante de ce site qui propose et qui note les objets du quotidien les plus écologiques et durables. Communication excellente, expédition rapide dans un emballage sans plastique. Les tarifs sont conséquents mais reflètent le prix de la qualité.<\/p>",
+            "author": "Colleen B",
+            "author_info": ""
+          }
+        },
+        "16415595014dd3434f-4": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Livraison pile à l'heure pour l'anniversaire de mon frère. Produit encore plus beau en vrai que sur le site. Merci !<\/p>",
+            "author": "Manon B.",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "16415595014dd3434f-0",
+        "16415595014dd3434f-1",
+        "16415595014dd3434f-2",
+        "16415595014dd3434f-3",
+        "16415595014dd3434f-4"
+      ],
+      "settings": {
+        "title": "La vérité sort de la bouche des clients",
+        "align_text": "center",
+        "round_images": true,
+        "color_scheme": "2"
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "From the journal",
+        "blog": "le-bon-vous-informer",
+        "blog_show_tags": false,
+        "blog_show_date": false,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "blog_image_size": "natural",
+        "divider": false
+      }
+    },
+    "logo-list": {
+      "type": "logo-list",
+      "blocks": {
+        "logo-list-0": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/12_360x_c806e2f6-da78-4e8a-a776-bc3ccf0f43bb.png",
+            "link": ""
+          }
+        },
+        "logo-list-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8_360x_fd8fcb4c-69a9-43ad-96c0-2dcb3b15c889.png",
+            "link": ""
+          }
+        },
+        "logo-list-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/11_360x_fb5104aa-9969-4bfc-830c-fd3e8fd59c76.png",
+            "link": ""
+          }
+        },
+        "logo-list-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/10_360x_8c15432f-db1c-4bff-90db-940aa6f2494c.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo-list-0",
+        "logo-list-1",
+        "logo-list-2",
+        "logo-list-3"
+      ],
+      "settings": {
+        "title": "ILS NOUS SOUTIENNENT",
+        "divider": false
+      }
+    },
+    "1641807894f0a9b612": {
+      "type": "rich-text",
+      "blocks": {
+        "16418078945aa7a69d-0": {
+          "type": "heading",
+          "settings": {
+            "title": "L'ÉCO-NOTE DU MOBILIER"
+          }
+        },
+        "16418078945aa7a69d-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Impossible de se repérer parmi la jungle des promesses, des labels, des fiches techniques pour faire un choix design responsable éclairé. <\/p><p><\/p><p><strong>Nous avons créé la première éco-note du mobilier. <\/strong><\/p><p><strong>Simple, comparable et transparente.<\/strong><\/p><p><\/p><p>NOTRE METHODE ? <a href=\"https:\/\/tres-ecodesign.com\/pages\/l-co-score\" target=\"_blank\" title=\"https:\/\/tres-ecodesign.com\/pages\/l-co-score\"><em>C'est ici.<\/em><\/a><\/p>"
+          }
+        },
+        "5e6ae96e-b01c-4905-88a2-0e8ad842c32d": {
+          "type": "button",
+          "settings": {
+            "link": "https:\/\/tres-ecodesign.com\/collections\/produits-eco-notes",
+            "link_text": "Tous les produits éco-notés"
+          }
+        }
+      },
+      "block_order": [
+        "16418078945aa7a69d-0",
+        "16418078945aa7a69d-1",
+        "5e6ae96e-b01c-4905-88a2-0e8ad842c32d"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "color_scheme": "3",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "featured-collections",
+    "promo-grid",
+    "featured-collection",
+    "featured-collection2",
+    "promo-grid2",
+    "newsletter",
+    "slideshow-split2",
+    "164155916413187403",
+    "rich-text",
+    "1641559501f6c03e05",
+    "blog-posts",
+    "logo-list",
+    "1641807894f0a9b612"
+  ]
+}

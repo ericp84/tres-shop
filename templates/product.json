@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "color_swatches": true
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "leaf",
+            "text": "Faible impact environnemental"
+          }
+        },
+        "sales_point2": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "lock",
+            "text": "Paiement sécurisé et crypté"
+          }
+        },
+        "sales_point3": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "truck",
+            "text": "Livraison offerte et à faible impact"
+          }
+        },
+        "sales_point4": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "Pour un conseil, appelez Camille au 06 03 26 02 61"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 6,
+            "inventory_transfers_enable": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true
+          }
+        },
+        "1f850352-4e34-4a27-961f-84c5f3e9848d": {
+          "type": "description",
+          "settings": {
+            "is_tab": true
+          }
+        },
+        "8b5a33fb-d847-481c-ade6-4ad3f84999fe": {
+          "type": "tab",
+          "settings": {
+            "title": "Pourquoi c'est bon ?",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "f6bf1662-e740-49c0-bda3-9786992bc4b8": {
+          "type": "tab",
+          "settings": {
+            "title": "Pourquoi c'est beau ?",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "321c69a3-a0de-4a61-81c7-29cdc2e42e4d": {
+          "type": "tab",
+          "settings": {
+            "title": "Dimensions et Caractéristiques",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "fb47dde6-2506-461f-a76e-13004b9ec514": {
+          "type": "tab",
+          "settings": {
+            "title": "Conditions et délais de livraison",
+            "content": "<p>Use collapsible tabs for more detailed information that will help customers make a purchasing decision.<\/p><p>Ex: Shipping and return policies, size guides, and other common questions.<\/p>",
+            "page": ""
+          }
+        },
+        "c5872cb9-503e-49ad-bfda-874c716bd8ad": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "variant_picker",
+        "price",
+        "sales_point",
+        "sales_point2",
+        "sales_point3",
+        "sales_point4",
+        "inventory_status",
+        "buy_buttons",
+        "1f850352-4e34-4a27-961f-84c5f3e9848d",
+        "8b5a33fb-d847-481c-ade6-4ad3f84999fe",
+        "f6bf1662-e740-49c0-bda3-9786992bc4b8",
+        "321c69a3-a0de-4a61-81c7-29cdc2e42e4d",
+        "fb47dde6-2506-461f-a76e-13004b9ec514",
+        "c5872cb9-503e-49ad-bfda-874c716bd8ad"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_container_size": "medium",
+        "product_image_size": "square",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_arrows": true,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "blocks": {
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Nos engagements",
+            "content": "<p>Pour tous nos produits, nous connaissons l'usine, la composition détaillée et les labels exacts. <\/p><p>Nous vérifions tout et rencontrons chaque responsable de production personnellement.<\/p><p><\/p><p><strong>- 100%<\/strong> des produits ont passé <a href=\"https:\/\/tres-ecodesign.com\/pages\/engagements\" target=\"_blank\" title=\"https:\/\/tres-ecodesign.com\/pages\/engagements\">notre charte de sélection<\/a> (même ceux dont le calcul de l’éco-note est en cours) <\/p><p><strong>- 0% <\/strong>de faute de goût : sélection exigeantes des plus beaux designs<\/p><p><strong>- 100% <\/strong>des informations disponibles en transparence<\/p>",
+            "page": ""
+          }
+        },
+        "contact": {
+          "type": "contact",
+          "settings": {
+            "title": "Besoin de conseils ? Un projet ? Ecrivez-nous",
+            "phone": true
+          }
+        },
+        "675da9c9-e0e9-4421-8d05-27dfae642b68": {
+          "type": "tab",
+          "settings": {
+            "title": "Conditions de Livraison",
+            "content": "<p><strong>Des livraisons à faible impact : <\/strong>Nous travaillons à vous livrer avec un impact minimal sur la planète en sélectionnant des transporteurs ayant une démarche environnementale poussée et sincère.<\/p><p><\/p><p>Pour plus de détail, voir nos <a href=\"https:\/\/tres-ecodesign.com\/pages\/livraison\"><strong>conditions de livraison<\/strong><\/a><\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab",
+        "contact",
+        "675da9c9-e0e9-4421-8d05-27dfae642b68"
+      ],
+      "settings": {
+        "max_width": true
+      }
+    },
+    "more-products-collection": {
+      "type": "more-products-collection",
+      "settings": {
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_recommendations_heading": "NOS PRODUITS DE DESIGN ÉCO-RESPONSABLES PRÉFÉRÉS"
+      }
+    },
+    "more-products-vendor": {
+      "type": "more-products-vendor",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "settings": {
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "more-products-collection",
+    "recommendations",
+    "more-products-vendor",
+    "recently-viewed",
+    "collection-return"
+  ]
+}
