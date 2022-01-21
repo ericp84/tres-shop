@@ -36,20 +36,21 @@
         <script> console.log({{ current_variant.id | json}})</script>
         <script> console.log({{ block.settings.inventory_threshold | json}})</script>
         <script> console.log({{ current_variant.inventory_policy | json}})</script>
+        <script> console.log({{ current_variant.inventory_quantity | json}})</script>        
 
-        <!-- {% if current_variant.inventory_quantity > 0 and current_variant.inventory_quantity >= block.settings.inventory_threshold %}
+        <!-- {% if inventory_visible and current_variant.inventory_quantity > 0 and current_variant.inventory_quantity >= block.settings.inventory_threshold %}
           {{ product.metafields.my_fields.livraison }}
         {% elsif current_variant.inventory_quantity == 0 and current_variant.inventory_policy == 'continue' %}
-          {{ product.metafields.my_fields.non_stock }}
-        {% elsif current_variant.inventory_quantity == 0 and current_variant.inventory_policy == 'deny' %}
+          {{ product.metafields.my_fields.non_stock }} stock
+        {% elsif inventory_visible and  current_variant.inventory_quantity == 0 and current_variant.inventory_policy == 'deny' %}
           {{ product.metafields.my_fields.invendu }} 
         {% endif %} -->
-                {%- if inventory_visible -%}
-      	{{ 'products.product.stock_label'| t }}
-        	<!-- {{ product.metafields.my_fields.livraison }} -->
-        {%- else -%}
-         	<!-- {{ product.metafields.my_fields.non_stock }} -->
-'en stock'        	{{ 'products.product.in_stock_label' | t }}
+        {%- if current_variant.inventory_quantity > 0 -%}
+      	  <!-- {{ 'products.product.stock_label'| t }} -->
+        	{{ product.metafields.my_fields.livraison }} ici
+        {%- elsif current_variant.inventory_quantity == 0 -%}
+         	{{ product.metafields.my_fields.non_stock }} ici 2
+<!-- 'en stock'{{ 'products.product.in_stock_label' | t }} -->
         {%- endif -%}        
         <!-- !délais livraison à intégrer ici! -->
       </span>
@@ -95,7 +96,7 @@
       'next_incoming_date': {{ variant.next_incoming_date | date: format: 'date' | json }}
     };
    {% endfor %}
-</script>
+</script> 
 
 {% comment %}
   If loaded in quick view, it might be from a JS-loaded function
